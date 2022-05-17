@@ -7,5 +7,5 @@ competition. A logisitc regression model predicts the survival of passenger's of
 The guiding rationale for the model is the following: women and children were prioritized by the crew filling
 lifeboats. The higher class tickets were on the upper decks and were able to make
 it to the lifeboats in time. Families that were too large became encumbered
-and could not make it. Hypothesized that many passengers where the cabin is reported 
+and could not make it. Passengers where the cabin is reported 
 were able to self report after the event.

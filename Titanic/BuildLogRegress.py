@@ -13,8 +13,7 @@ number is reported.
 The rationale is the following: women and children were prioritized by the crew filling
 lifeboats. The higher class tickets were on the upper decks and were able to make
 it to the lifeboats in time. Families that were too large became encumbered
-and could not make it. Hypothesized that many passengers where the cabin is reported 
-were able to self report after the event.
+and could not make it. 
 """
 
 #import data
@@ -43,9 +42,9 @@ age_mean = data["Age"].mean()
 data["Age"].fillna(age_mean,inplace=True)
 
 #if cabin is reported the hascabin=1
-data["HasCabin"] = 1
+#data["HasCabin"] = 1
 
-data.loc[data.Cabin.isnull(), "HasCabin"] = 0
+#data.loc[data.Cabin.isnull(), "HasCabin"] = 0
 
 #if age is less than 15 than IsChild=1
 data["IsChild"] = 0
@@ -62,7 +61,7 @@ xvar["Pclass"] = data.Pclass
 #xvar["Age"] = data.Age
 xvar["Sex"] = data.SexBin
 xvar["BigFam"] = data.BigFam
-xvar["HasCabin"] = data.HasCabin
+#xvar["HasCabin"] = data.HasCabin
 xvar["IsChild"] = data.IsChild
 
 #%%

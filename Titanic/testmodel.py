@@ -32,9 +32,9 @@ test_data["BigFam"] = 0
 
 test_data.loc[(test_data.Parch + test_data.SibSp) >= 4, "BigFam"] = 1
 
-test_data["HasCabin"] = 1
+#test_data["HasCabin"] = 1
 
-test_data.loc[test_data.Cabin.isnull(), "HasCabin"] = 0
+#test_data.loc[test_data.Cabin.isnull(), "HasCabin"] = 0
 
 test_data["IsChild"] = 0
 
@@ -49,7 +49,7 @@ xvar["Pclass"] = test_data.Pclass
 #xvar["Age"] = test_data.Age
 xvar["Sex"] = test_data.SexBin
 xvar["BigFam"] = test_data.BigFam
-xvar["HasCabin"] = test_data.HasCabin
+#xvar["HasCabin"] = test_data.HasCabin
 xvar["IsChild"] = test_data.IsChild
 
 

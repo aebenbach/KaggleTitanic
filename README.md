@@ -1,7 +1,7 @@
 # KaggleTitanic
 Modeling the survival of the Titanic's passengers for Kaggle's competition
 
-This project creates a predictions for Kaggle's ML Titanic
+This project creates predictions for Kaggle's ML Titanic
 competition. A logisitc regression model is used to predict the survival of passenger's of the titanic. Also included are
 visualizations of various demographics and their survival rates.
 
